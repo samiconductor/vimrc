@@ -2,7 +2,8 @@
 
 ## Install
 
-Clone the config files including the [Vundle](vundle/) submodule:
+Clone the config files including the
+[Vundle](https://github.com/gmarik/Vundle.vim) submodule:
 
 `git clone --recursive git@github.com:samiconductor/vimrc.git ~/.vim`
 
@@ -29,10 +30,11 @@ when a `filetype` is loaded that matches the script's name. Place
 needed). Just be sure to use `setlocal` to avoid affecting other
 buffers.
 
-### [vundle/](vundle/)
+### vundle/
 
-This setup hinges on [Vundle](vundle/) to keep plugins in their own
-`runtimepath`. Hence it's included as a git submodule.
+This setup hinges on [Vundle](https://github.com/gmarik/Vundle.vim) to
+keep plugins in their own `runtimepath`. Hence it's included as a git
+submodule.
 
 ### cache/
 
