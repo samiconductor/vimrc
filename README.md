@@ -34,7 +34,7 @@ buffers.
 
 This setup hinges on [Vundle](https://github.com/gmarik/Vundle.vim) to
 keep plugins in their own `runtimepath`. Hence it's included as a git
-submodule.
+submodule. Vundle is configured in [rc/plugins.vim](rc/plugins.vim).
 
 ### cache/
 
