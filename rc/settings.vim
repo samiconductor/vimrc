@@ -51,8 +51,9 @@ set wildignore+=*/tmp/cache/assets/*/sprockets/*,*/tmp/cache/assets/*/sass/*
 
 " backup and swap files
 let s:backup = [
-      \["~/.vim_cache/backup/", "backupdir"],
-      \["~/.vim_cache/temp/", "directory"]]
+      \["~/.vim/cache/backup/", "backupdir"],
+      \["~/.vim/cache/undo/", "undodir"],
+      \["~/.vim/cache/swp/", "directory"]]
 
 for [s:dir, s:var] in s:backup
   if !isdirectory(expand(s:dir))

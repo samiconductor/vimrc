@@ -2,7 +2,7 @@ filetype off
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/vundle
-call vundle#begin('~/.vim_cache/plugins')
+call vundle#begin('~/.vim/cache/plugins')
 
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
