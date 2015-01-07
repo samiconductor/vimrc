@@ -40,9 +40,8 @@ submodule. Vundle is configured in [rc/plugins.vim](rc/plugins.vim).
 
 ### cache/
 
-This directory is created at the bottom of
-[rc/settings.vim](rc/settings.vim). It contains any temp files and your
-installed Vundle plugins.
+This directory is created in [rc/cache.vim](rc/cache.vim). It contains
+any tmp files and installed Vundle plugins.
 
 ## Update Vundle
 

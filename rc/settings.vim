@@ -48,17 +48,3 @@ set wildignore+=*/node_modules/*,*/bower_components/*
 set wildignore+=*/vendor/gems/*,*/vendor/cache/*,*/.bundle/*,*/.sass-cache/*
 set wildignore+=*/tmp/librarian/*,*/.vagrant/*,*/.kitchen/*,*/vendor/cookbooks/*
 set wildignore+=*/tmp/cache/assets/*/sprockets/*,*/tmp/cache/assets/*/sass/*
-
-" backup and swap files
-let s:backup = [
-      \["~/.vim/cache/backup/", "backupdir"],
-      \["~/.vim/cache/undo/", "undodir"],
-      \["~/.vim/cache/swp/", "directory"]]
-
-for [s:dir, s:var] in s:backup
-  if !isdirectory(expand(s:dir))
-    silent exec "!mkdir -p ".s:dir
-  endif
-
-  exec "set ".s:var."^=".s:dir."/"
-endfor
