@@ -15,8 +15,8 @@ Then install the Vundle plugins with `vim +PluginInstall +qall`.
 
 Contains settings you would normally put in your `vimrc`. But instead of
 placing everything in one file, [vimrc](vimrc) globs for `.vim` files in
-[rc/](rc/) and [rc/after/](rc/after/) which lets you split things up
-nicely.
+[rc/before/](rc/before), [rc/](rc/), and [rc/after/](rc/after/) which
+lets you split things up nicely.
 
 ### [plugin/](plugin/)
 
@@ -29,7 +29,7 @@ in files named after the plugin.
 This is another `runtimepath` directory but these scripts only execute
 when a `filetype` is loaded that matches the script's name. Place
 `filetype` specific settings in here (no more `autocmd FileType`
-needed). Just be sure to use `setlocal` to avoid affecting other
+    needed). Just be sure to use `setlocal` to avoid affecting other
 buffers.
 
 ### vundle/
@@ -40,9 +40,15 @@ submodule. Vundle is configured in [rc/plugins.vim](rc/plugins.vim).
 
 ### cache/
 
-This directory is created in [rc/cache.vim](rc/cache.vim). It contains
-any tmp files and installed Vundle plugins.
+This directory is created in [rc/before/cache.vim](rc/before/cache.vim).
+It contains any tmp files and installed Vundle plugins.
 
 ## Update Vundle
 
 Update Vundle by running `git submodule update` in `~/.vim`.
+
+## Pointers
+
+Some of the settings and conventions are copied directly from
+[janus](https://github.com/carlhuda/janus). I highly recommend it,
+especially if you're just getting started with vim.

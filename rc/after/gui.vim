@@ -3,7 +3,7 @@ if has("gui_running")
   let g:solarized_contrast="high"    "default value is normal
   syntax enable
   set background=dark
-  silent! colorscheme solarized
+  colorscheme solarized
 
   " no tool bar
   set guioptions-=T
