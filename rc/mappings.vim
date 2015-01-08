@@ -4,12 +4,6 @@ noremap Y y$
 " close quickfix
 nnoremap <Leader>qc :ccl<CR>
 
-" run current file with python
-nnoremap <Leader>pr :!python %<CR>
-
-" widen and close narrowed region
-nnoremap <Leader>wr :WidenRegion!<CR>
-
 " remap home path expansion
 cnoremap <C-H> <C-R>=expand("%:p:h") . "/"<CR>
 
@@ -17,18 +11,14 @@ cnoremap <C-H> <C-R>=expand("%:p:h") . "/"<CR>
 cnoremap <C-P> <Up>
 cnoremap <C-N> <Down>
 
-" gundo toggle
-nnoremap <Leader>gt :GundoToggle<CR>
+" run current file with python
+nnoremap <Leader>pr :!python %<CR>
 
 " run python tests
-"nnoremap <silent> <Leader>pt :compiler nose <Bar> call Sharefix('nosetests', 'All tests passed', 'silent make')<CR>
 nnoremap <Leader>pt :!python -m unittest discover -s tests<CR>
 
 " format a paragraph
 nnoremap <Leader>gq gqap
-
-" run headless dispatch
-nnoremap <Leader>d :Dispatch!<CR>
 
 " copy current file path
 nnoremap <silent> <Leader>cp :let @+ = expand('%')<CR>
@@ -51,9 +41,11 @@ nnoremap <silent> <leader>tw :set invwrap<CR>:set wrap?<CR>
 " find merge conflict markers
 nnoremap <silent> <leader>fc <ESC>/\v^[<=>]{7}( .*\|$)<CR>
 
-" open finder or terminal in current directory
-nnoremap <leader>of :silent !open <C-R>=expand('%:p:h')<CR><CR>
-nnoremap <leader>ot :silent !open -a Terminal <C-R>=expand('%:p:h')<CR><CR>
+if has("mac")
+  " open finder or terminal in current directory
+  nnoremap <leader>of :silent !open <C-R>=expand('%:p:h')<CR><CR>
+  nnoremap <leader>ot :silent !open -a Terminal <C-R>=expand('%:p:h')<CR><CR>
+endif
 
 if has("gui_macvim") && has("gui_running")
   " Map command-[ and command-] to indenting or outdenting
