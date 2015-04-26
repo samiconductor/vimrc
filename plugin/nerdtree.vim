@@ -1,5 +1,5 @@
 nnoremap <silent> <Space> :NERDTreeToggle<CR>
-nnoremap <C-Space> :NERDTreeFromBookmark<Space>
+nnoremap <S-Space> :NERDTreeFromBookmark<Space>
 
 " change directory when bookmark loaded in nerdtree
 let NERDTreeChDirMode=2
