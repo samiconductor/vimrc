@@ -21,7 +21,8 @@ nnoremap <Leader>pt :!python -m unittest discover -s tests<CR>
 nnoremap <Leader>gq gqap
 
 " copy current file path
-nnoremap <silent> <Leader>cp :let @+ = expand('%')<CR>
+nnoremap <silent> <Leader>cp :let @+ = expand('%')<CR>:echo 'copied '.expand('%')<CR>
+
 
 " format entire file
 nnoremap <leader>fef :normal! gg=G``<CR>
