@@ -1,11 +1,19 @@
 filetype off
 
+let s:pluginsdir=g:cachedir.'plugins/'
+let s:vundledir=s:pluginsdir.'Vundle.vim'
+
+" Get Vundle if it does not yet exist
+if !isdirectory(s:vundledir)
+  silent execute '!git clone https://github.com/VundleVim/Vundle.vim.git '.s:vundledir
+endif
+
 " set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/vundle
-call vundle#begin(g:cachedir.'plugins/')
+let &rtp.=','.s:vundledir
+call vundle#begin(s:pluginsdir)
 
 " let Vundle manage Vundle, required
-Plugin 'gmarik/Vundle.vim'
+Plugin 'VundleVim/Vundle.vim'
 
 " language
 Plugin 'cakebaker/scss-syntax.vim'
@@ -44,7 +52,7 @@ Plugin 'tpope/vim-dispatch'
 " interface
 Plugin 'bling/vim-airline'
 Plugin 'jeetsukumaran/vim-buffergator'
-Plugin 'kien/ctrlp.vim'
+Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'majutsushi/tagbar'
 Plugin 'scrooloose/nerdtree'
 Plugin 'sjl/gundo.vim'

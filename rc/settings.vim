@@ -12,7 +12,7 @@ set laststatus=2                  " always show the status line
 
 " syntax highlighting
 syntax enable
-colorscheme darkZ
+silent! colorscheme darkZ
 
 " lookup words with dictionary completion
 set dictionary+=/usr/share/dict/words
