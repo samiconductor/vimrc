@@ -41,17 +41,17 @@ I add file type settings here instead of using `autocmd FileType` in my
 runtime configs. Just be sure to use `setlocal` to avoid affecting other
 buffers.
 
-### vundle/
+### cache/
+
+This directory is created in [rc/before/cache.vim](rc/before/cache.vim).
+It contains any tmp files and installed Vundle plugins.
+
+## Vundle
 
 This setup hinges on [Vundle](https://github.com/gmarik/Vundle.vim) to
 keep plugins in a separate folder. My Vundle plugins are configured in
 [rc/plugins.vim](rc/plugins.vim). This script also clones Vundle for you
 if it does not exist.
-
-### cache/
-
-This directory is created in [rc/before/cache.vim](rc/before/cache.vim).
-It contains any tmp files and installed Vundle plugins.
 
 ## Pointers
 
