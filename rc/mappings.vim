@@ -11,6 +11,9 @@ cnoremap <C-H> <C-R>=expand("%:p:h") . "/"<CR>
 cnoremap <C-P> <Up>
 cnoremap <C-N> <Down>
 
+" insert date into command line
+cnoremap <C-T> <C-R>=strftime("%Y-%m-%d")<CR>
+
 " run current file with python
 nnoremap <Leader>pr :!python %<CR>
 
@@ -22,7 +25,6 @@ nnoremap <Leader>gq gqap
 
 " copy current file path
 nnoremap <silent> <Leader>cp :let @+ = expand('%')<CR>:echo 'copied '.expand('%')<CR>
-
 
 " format entire file
 nnoremap <leader>fef :normal! gg=G``<CR>
