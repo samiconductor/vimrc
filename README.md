@@ -41,10 +41,10 @@ I add file type settings here instead of using `autocmd FileType` in my
 runtime configs. Just be sure to use `setlocal` to avoid affecting other
 buffers.
 
-### cache/
+### var/
 
-This directory is created in [rc/before/cache.vim](rc/before/cache.vim).
-It contains any tmp files and installed Vundle plugins.
+This directory is created in [rc/before/var.vim](rc/before/var.vim). It
+contains the installed Vundle plugins and any files created at runtime.
 
 ## Vundle
 

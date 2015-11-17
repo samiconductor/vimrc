@@ -1,5 +1,5 @@
-" global cache directory
-let g:cachedir = expand("~/.vim/cache/")
+" global var directory
+let g:vardir = expand("~/.vim/var/")
 
 " set tmp directories
 let s:dirs = [
@@ -7,12 +7,12 @@ let s:dirs = [
       \["undo", "undodir"],
       \["swp", "directory"]]
 
-for [s:dir, s:var] in s:dirs
-  let s:path = g:cachedir.s:dir."/"
+for [s:dir, s:opt] in s:dirs
+  let s:path = g:vardir.s:dir."/"
 
   if !isdirectory(s:path)
     silent exec "!mkdir -p ".s:path
   endif
 
-  exec "set ".s:var."^=".s:path."/"
+  exec "set ".s:opt."^=".s:path."/"
 endfor

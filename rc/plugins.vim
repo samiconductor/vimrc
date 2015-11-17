@@ -1,6 +1,6 @@
 filetype off
 
-let s:pluginsdir=g:cachedir.'plugins/'
+let s:pluginsdir=g:vardir.'plugins/'
 let s:vundledir=s:pluginsdir.'Vundle.vim'
 
 " Get Vundle if it does not yet exist
