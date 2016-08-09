@@ -9,7 +9,11 @@ if has("gui_running")
   set guioptions-=T
 
   " window size at startup
-  set lines=50 columns=160
+  if has("mac")
+    set lines=50 columns=160
+  else
+    set lines=40 columns=100
+  endif
 
   if has("mac")
     " macvim fullscreen
