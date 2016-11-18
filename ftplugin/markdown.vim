@@ -1,5 +1,5 @@
-setlocal wrap linebreak textwidth=72
-setlocal nolist
+" do not auto insert new lines
+setlocal wrap linebreak nolist textwidth=0 wrapmargin=0 formatoptions-=t
 setlocal spell spelllang=en_us
 
 " Pulled from https://github.com/plasticboy/vim-markdown/blob/master/ftplugin/markdown.vim
