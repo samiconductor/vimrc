@@ -62,7 +62,7 @@ Plugin 'ZoomWin'
 
 " commands
 Plugin 'chrisbra/NrrwRgn'
-Plugin 'edsono/vim-matchit'
+Plugin 'matchit.zip'
 Plugin 'godlygeek/tabular'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'terryma/vim-multiple-cursors'
