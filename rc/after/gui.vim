@@ -9,18 +9,14 @@ if has("gui_running")
   set guioptions-=T
 
   " window size at startup
-  if has("mac")
-    set lines=50 columns=160
-  else
-    set lines=40 columns=100
-  endif
+  set lines=50 columns=160
+
+  " automatically resize splits when resizing MacVim window
+  autocmd VimResized * wincmd =
 
   if has("mac")
     " macvim fullscreen
     set fuoptions=maxvert,maxhorz
-
-    " automatically resize splits when resizing MacVim window
-    autocmd VimResized * wincmd =
   endif
 
 endif
