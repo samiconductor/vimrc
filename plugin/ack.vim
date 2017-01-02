@@ -1,3 +1,12 @@
+" do not apply ack quickfix mappings
+let g:ack_apply_qmappings = 0
+
+" do not open preview
+let g:ackpreview = 0
+
+" use dispatch for searches
+let g:ack_use_dispatch = 1
+
 if has("gui_macvim") && has("gui_running")
   " Command-Shift-F on OSX
   nnoremap <D-F> :Ack<space>
