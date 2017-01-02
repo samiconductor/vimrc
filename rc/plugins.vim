@@ -46,6 +46,7 @@ Plugin 'skammer/vim-css-color'
 Plugin 'tomasr/molokai'
 
 " integrations
+Plugin 'joonty/vdebug'
 Plugin 'mileszs/ack.vim'
 Plugin 'scrooloose/syntastic'
 Plugin 'tpope/vim-commentary'

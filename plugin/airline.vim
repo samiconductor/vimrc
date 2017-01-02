@@ -1,7 +1,7 @@
 " displays all buffers in a top bar when only one tab is open
 let g:airline#extensions#tabline#enabled = 1
 
-" make sure the symbols dictionary
+" make sure the symbols dictionary exists
 if !exists('g:airline_symbols')
   let g:airline_symbols = {}
 endif
