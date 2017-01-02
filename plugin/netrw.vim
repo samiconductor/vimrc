@@ -3,3 +3,9 @@ let g:netrw_home = g:vardir
 
 " initialize with dot files hidden
 let g:netrw_list_hide = '\(^\|\s\s\)\zs\.\S\+'
+
+" open files on the right
+let g:netrw_altv = 1
+
+" open previews vertically
+let g:netrw_preview = 1
