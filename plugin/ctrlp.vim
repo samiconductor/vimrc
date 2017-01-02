@@ -4,5 +4,6 @@ let g:ctrlp_custom_ignore = {
       \ }
 
 let g:ctrlp_root_markers = [
+      \ '.git',
       \ 'package.json'
       \ ]

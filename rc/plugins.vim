@@ -29,7 +29,7 @@ Plugin 'othree/html5.vim'
 Plugin 'pangloss/vim-javascript'
 Plugin 'tpope/vim-git'
 Plugin 'tpope/vim-markdown'
-Plugin 'tpope/vim-surround'
+Plugin 'stanangeloff/php.vim'
 Plugin 'vim-ruby/vim-ruby'
 
 " completion
@@ -48,25 +48,25 @@ Plugin 'tomasr/molokai'
 " integrations
 Plugin 'mileszs/ack.vim'
 Plugin 'scrooloose/syntastic'
+Plugin 'tpope/vim-commentary'
 Plugin 'tpope/vim-dispatch'
 
 " interface
+Plugin 'airblade/vim-gitgutter'
 Plugin 'bling/vim-airline'
 Plugin 'jeetsukumaran/vim-buffergator'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'majutsushi/tagbar'
-Plugin 'scrooloose/nerdtree'
 Plugin 'sjl/gundo.vim'
 Plugin 'tpope/vim-fugitive'
-Plugin 'ZoomWin'
+Plugin 'tpope/vim-vinegar'
 
 " commands
-Plugin 'chrisbra/NrrwRgn'
 Plugin 'matchit.zip'
 Plugin 'godlygeek/tabular'
-Plugin 'scrooloose/nerdcommenter'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'tpope/vim-repeat'
+Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-unimpaired'
 
 " All of your Plugins must be added before the following line

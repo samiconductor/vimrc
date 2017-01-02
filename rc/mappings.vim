@@ -33,7 +33,7 @@ nnoremap <leader>fef :normal! gg=G``<CR>
 nnoremap <silent> <leader>tw :set invwrap<CR>:set wrap?<CR>
 
 " toggle hlsearch
-nnoremap <leader>hs :set hlsearch! hlsearch?<CR>
+nnoremap <leader>hl :set hlsearch! hlsearch?<CR>
 
 " cd to the directory containing the file in the buffer
 nnoremap <silent> <leader>cd :lcd %:h<CR>
