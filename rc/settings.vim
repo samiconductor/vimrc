@@ -39,8 +39,11 @@ set incsearch   " incremental searching
 set ignorecase  " searches are case insensitive...
 set smartcase   " ... unless they contain at least one capital letter
 
-" list cmd line completions and complete longest match
-set wildmode=list:longest
+" cmd line completions
+"" list: view the list of completions
+"" longest: complete longest match
+"" full: keep tabbing to cycle through completions
+set wildmode=list:longest,full
 
 set wildignore+=*.swp,*~,._*
 set wildignore+=*.o,*.out,*.obj,.git,*.rbc,*.rbo,*.class,.svn,*.gem
