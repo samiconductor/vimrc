@@ -1,11 +1,13 @@
 " yank from cursor to end of line
 noremap Y y$
 
-" open quickfix
+" open/close quickfix
 nnoremap <Leader>co :copen<CR>
-
-" close quickfix
 nnoremap <Leader>cc :cclose<CR>
+
+" open/close location list
+nnoremap <Leader>lo :lopen<CR>
+nnoremap <Leader>lc :lclose<CR>
 
 " remap home path expansion
 cnoremap <C-H> <C-R>=expand("%:p:h") . "/"<CR>
