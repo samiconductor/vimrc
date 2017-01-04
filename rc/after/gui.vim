@@ -5,6 +5,9 @@ if has("gui_running")
   set background=dark
   silent! colorscheme solarized
 
+  " highlight the cursor line
+  set cursorline
+
   " no tool bar
   set guioptions-=T
 
