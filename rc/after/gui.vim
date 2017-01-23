@@ -8,7 +8,8 @@ if has("gui_running")
   " highlight the cursor line
   set cursorline
 
-  " no tool bar
+  " no menu or tool bar
+  set guioptions-=m
   set guioptions-=T
 
   " window size at startup
