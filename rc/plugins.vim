@@ -71,6 +71,8 @@ Plugin 'tpope/vim-unimpaired'
 
 " other
 Plugin 'embear/vim-localvimrc'
+Plugin 'xolox/vim-misc'
+Plugin 'xolox/vim-notes'
 
 " All of your Plugins must be added before the following line
 call vundle#end()
