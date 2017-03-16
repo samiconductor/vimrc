@@ -28,8 +28,9 @@ nnoremap <Leader>pt :!python -m unittest discover -s tests<CR>
 " format a paragraph
 nnoremap <Leader>gq gqap
 
-" copy current file path
+" copy current file path or path with line number
 nnoremap <silent> <Leader>cp :let @+ = expand('%')<CR>:echo 'copied '.expand('%')<CR>
+nnoremap <silent> <Leader>cl :let @+ = expand('%').'#L'.line('.')<CR>:echo 'copied '.expand('%').'#L'.line('.')<CR>
 
 " format entire file
 nnoremap <leader>fef :normal! gg=G``<CR>
