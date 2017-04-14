@@ -10,4 +10,4 @@ if join(g:notes_directories) !~ s:dropbox_notes
 endif
 
 " create a note with current date as title
-command! Log execute 'Note @log '.strftime('%Y-%m-%d')
+command! -nargs=* Log execute 'Note @log '.strftime('%Y-%m-%d').' '.<q-args>
