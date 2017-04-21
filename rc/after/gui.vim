@@ -23,4 +23,9 @@ if has("gui_running")
     set fuoptions=maxvert,maxhorz
   endif
 
+  if has("unix")
+    " enable opening URLs with gx
+    let g:netrw_browsex_viewer="setsid xdg-open"
+  endif
+
 endif
