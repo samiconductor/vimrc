@@ -8,11 +8,11 @@ let s:dirs = [
       \["swp", "directory"]]
 
 for [s:dir, s:opt] in s:dirs
-  let s:path = g:vardir.s:dir."/"
+  let s:path = g:vardir.s:dir
 
   if !isdirectory(s:path)
     silent exec "!mkdir -p ".s:path
   endif
 
-  exec "set ".s:opt."^=".s:path."/"
+  exec "set ".s:opt."^=".s:path
 endfor
