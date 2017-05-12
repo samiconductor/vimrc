@@ -1,5 +1,5 @@
 " global var directory
-let g:vardir = expand("~/.vim/var/")
+let g:vardir = expand("~/.vim/var")
 
 " set tmp directories
 let s:dirs = [
@@ -8,7 +8,7 @@ let s:dirs = [
       \["swp", "directory"]]
 
 for [s:dir, s:opt] in s:dirs
-  let s:path = g:vardir.s:dir
+  let s:path = g:vardir.'/'.s:dir
 
   if !isdirectory(s:path)
     silent exec "!mkdir -p ".s:path

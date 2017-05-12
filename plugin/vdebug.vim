@@ -10,4 +10,4 @@ let g:vdebug_options['break_on_open'] = 0
 let g:vdebug_options['continuous_mode'] = 1
 
 " debug vdebug
-let g:vdebug_options['debug_file'] = g:vardir.'vdebug.log'
+let g:vdebug_options['debug_file'] = g:vardir.'/vdebug.log'
