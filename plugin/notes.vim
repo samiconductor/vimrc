@@ -10,4 +10,8 @@ if join(g:notes_directories) !~ s:dropbox_notes
 endif
 
 " create a note with current date as title
-command! -nargs=* Log execute 'Note @log '.strftime('%Y-%m-%d').' '.<q-args>
+command! -complete=custom,ListNotesTags -nargs=* Log execute 'Note @log '.strftime('%Y-%m-%d').' '.<q-args>
+
+function! ListNotesTags(arglead, cmdline, cursorpos)
+  return join(map(sort(keys(xolox#notes#tags#load_index()), 1), '"@".v:val'), "\n")
+endfunction
