@@ -18,7 +18,7 @@ silent! colorscheme darkZ
 " prepend project specific hidden tags files
 "" append 'd' to cpoptions to look for tags files in the current directory
 "" instead of relative to the current file
-set tags^=./.tags
+set tags^=./.tags,.tags
 set cpoptions+=d
 
 " lookup words with dictionary completion
