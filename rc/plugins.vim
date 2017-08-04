@@ -42,7 +42,6 @@ Plugin 'altercation/vim-colors-solarized'
 Plugin 'bronson/vim-trailing-whitespace'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'nathanaelkane/vim-indent-guides'
-Plugin 'skammer/vim-css-color'
 Plugin 'tomasr/molokai'
 
 " integrations
