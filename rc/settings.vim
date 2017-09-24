@@ -5,7 +5,7 @@ set expandtab                     " replace tabs with spaces
 set textwidth=0                   " avoid forced line breaks
 set nowrap
 let &showbreak = '↪ '             " if line is wrapped, prefix with break character
-set number                        " show line numbers
+set number relativenumber         " show relative line numbers
 set ruler                         " show the line and columb number of the cursor
 set list                          " show invisible characters
 set backspace=indent,eol,start    " backspace through everything in insert mode
