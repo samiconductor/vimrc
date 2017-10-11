@@ -41,7 +41,6 @@ Plugin 'tpope/vim-endwise'
 " code display
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'bronson/vim-trailing-whitespace'
-Plugin 'posva/vim-vue'
 Plugin 'nathanaelkane/vim-indent-guides'
 
 " integrations
