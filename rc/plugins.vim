@@ -23,6 +23,7 @@ Plugin 'digitaltoad/vim-jade'
 Plugin 'elzr/vim-json'
 Plugin 'groenewege/vim-less'
 Plugin 'kchmck/vim-coffee-script'
+Plugin 'leafgarland/typescript-vim'
 Plugin 'matze/vim-lilypond'
 Plugin 'mmalecki/vim-node.js'
 Plugin 'othree/html5.vim'
@@ -40,6 +41,7 @@ Plugin 'tpope/vim-endwise'
 " code display
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'bronson/vim-trailing-whitespace'
+Plugin 'posva/vim-vue'
 Plugin 'nathanaelkane/vim-indent-guides'
 
 " integrations
