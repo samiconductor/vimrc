@@ -1,9 +1,8 @@
-let g:ctrlp_custom_ignore = {
-      \ 'dir':  '\v[\/]\.(git|hg|svn)$',
-      \ 'file': '\.pyc$\|\.pyo$\|\.rbc$|\.rbo$\|\.class$\|\.o$\|\~$\'
-      \ }
+" shortcuts
+nnoremap <Leader>s :CtrlP<CR>
+nnoremap <Leader>rs :CtrlPClearCache <Bar> CtrlP<CR>
 
-let g:ctrlp_root_markers = [
-      \ '.git',
-      \ 'package.json'
-      \ ]
+" use caching
+let g:ctrlp_use_caching = 1
+let g:ctrlp_clear_cache_on_exit = 0
+let g:ctrlp_cache_dir = g:vardir.'/ctrlp'
