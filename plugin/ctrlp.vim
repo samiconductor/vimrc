@@ -1,6 +1,9 @@
 " shortcuts
-nnoremap <Leader>s :CtrlP<CR>
+let g:ctrlp_map = '<Leader>s'
 nnoremap <Leader>rs :CtrlPClearCache <Bar> CtrlP<CR>
+
+" extensions
+let g:ctrlp_extensions = ['autoignore']
 
 " use caching
 let g:ctrlp_use_caching = 1
