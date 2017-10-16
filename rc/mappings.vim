@@ -32,9 +32,6 @@ nnoremap <Leader>gq gqap
 nnoremap <silent> <Leader>cp :let @+ = expand('%')<CR>:echo 'copied '.expand('%')<CR>
 nnoremap <silent> <Leader>cl :let @+ = expand('%').'#L'.line('.')<CR>:echo 'copied '.expand('%').'#L'.line('.')<CR>
 
-" format entire file
-nnoremap <leader>fef :normal! gg=G``<CR>
-
 " toggle text wrap
 nnoremap <silent> <leader>tw :set invwrap<CR>:set wrap?<CR>
 
@@ -46,9 +43,6 @@ nnoremap <silent> <leader>cd :lcd %:h<CR>
 
 " set text wrapping toggles
 nnoremap <silent> <leader>tw :set invwrap<CR>:set wrap?<CR>
-
-" find merge conflict markers
-nnoremap <silent> <leader>fc <ESC>/\v^[<=>]{7}( .*\|$)<CR>
 
 if has("mac")
   " open finder or terminal in current directory
