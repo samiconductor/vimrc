@@ -20,6 +20,7 @@ Plugin 'cakebaker/scss-syntax.vim'
 Plugin 'chrisbra/csv.vim'
 Plugin 'derekwyatt/vim-scala'
 Plugin 'digitaltoad/vim-jade'
+Plugin 'elmcast/elm-vim'
 Plugin 'elzr/vim-json'
 Plugin 'groenewege/vim-less'
 Plugin 'kchmck/vim-coffee-script'
@@ -46,9 +47,9 @@ Plugin 'nathanaelkane/vim-indent-guides'
 " integrations
 Plugin 'joonty/vdebug'
 Plugin 'mileszs/ack.vim'
-Plugin 'scrooloose/syntastic'
 Plugin 'tpope/vim-commentary'
 Plugin 'tpope/vim-dispatch'
+Plugin 'w0rp/ale'
 
 " interface
 Plugin 'airblade/vim-gitgutter'

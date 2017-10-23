@@ -1,6 +1,9 @@
 " global var directory
 let g:vardir = expand("~/.vim/var")
 
+" set view directory
+exec "set viewdir=".g:vardir."/view"
+
 " set tmp directories
 let s:dirs = [
       \["backup", "backupdir"],
