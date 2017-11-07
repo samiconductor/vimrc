@@ -75,6 +75,7 @@ Plugin 'whatyouhide/vim-textobj-xmlattr'
 Plugin 'embear/vim-localvimrc'
 Plugin 'xolox/vim-misc'
 Plugin 'xolox/vim-notes'
+Plugin 'tpope/vim-sleuth'
 
 " All of your Plugins must be added before the following line
 call vundle#end()
