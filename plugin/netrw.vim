@@ -1,3 +1,6 @@
+" open netrw
+nnoremap <Leader>e :Explore<CR>
+
 " put netrw bookmarks and history in var directory
 let g:netrw_home = g:vardir
 

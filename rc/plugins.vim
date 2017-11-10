@@ -59,7 +59,6 @@ Plugin 'jeffkreeftmeijer/vim-numbertoggle'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'sjl/gundo.vim'
 Plugin 'tpope/vim-fugitive'
-Plugin 'tpope/vim-vinegar'
 
 " commands
 Plugin 'matchit.zip'
