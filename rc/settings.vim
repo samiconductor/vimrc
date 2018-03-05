@@ -30,6 +30,9 @@ set pastetoggle=<F4>
 " hide buffer changes warning on buffer switch
 set hidden
 
+" automatically update buffer when underlying file changes
+set autoread
+
 " list chars
 set listchars=""                  " Reset the listchars
 set listchars=tab:\ \             " a tab should display as "  ", trailing whitespace as "."
