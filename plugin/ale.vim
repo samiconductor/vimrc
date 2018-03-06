@@ -1,6 +1,8 @@
 " must explicitly set ale fixers
 let g:ale_fixers = {
       \ 'python': ['autopep8'],
+      \ 'javascript': ['eslint'],
+      \ 'typescript': ['tslint'],
       \ }
 
 " automatically fix on save
