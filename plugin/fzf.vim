@@ -1,5 +1,5 @@
 " search for files
-nnoremap <Space> :Files<CR>
+nnoremap <Leader>s :Files<CR>
 
 " search buffers
 nnoremap <Leader>b :Buffers<CR>
