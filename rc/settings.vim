@@ -7,6 +7,7 @@ set nowrap
 let &showbreak = '↪ '             " if line is wrapped, prefix with break character
 set number relativenumber         " show relative line numbers
 set ruler                         " show the line and columb number of the cursor
+set cursorline                    " highlight the current line
 set list                          " show invisible characters
 set backspace=indent,eol,start    " backspace through everything in insert mode
 set laststatus=2                  " always show the status line

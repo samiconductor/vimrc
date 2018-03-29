@@ -1,13 +1,4 @@
 if has("gui_running")
-  " syntax highlighting
-  let g:solarized_contrast="high"    "default value is normal
-  syntax enable
-  set background=dark
-  silent! colorscheme solarized
-
-  " highlight the cursor line
-  set cursorline
-
   " no menu or tool bar
   set guioptions-=m
   set guioptions-=T
