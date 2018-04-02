@@ -43,6 +43,7 @@ Plugin 'tpope/vim-endwise'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'bronson/vim-trailing-whitespace'
 Plugin 'nathanaelkane/vim-indent-guides'
+Plugin 'posva/vim-vue'
 
 " integrations
 Plugin 'joonty/vdebug'
