@@ -35,6 +35,7 @@ Plugin 'stanangeloff/php.vim'
 Plugin 'vim-ruby/vim-ruby'
 
 " completion
+Plugin 'ludovicchabant/vim-gutentags'
 Plugin 'mustache/vim-mustache-handlebars'
 Plugin 'Shougo/neocomplete.vim'
 Plugin 'tpope/vim-endwise'

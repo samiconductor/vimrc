@@ -14,7 +14,7 @@ for [s:dir, s:opt] in s:dirs
   let s:path = g:vardir.'/'.s:dir
 
   if !isdirectory(s:path)
-    silent exec "!mkdir -p ".s:path
+    call mkdir(s:path, 'p')
   endif
 
   exec "set ".s:opt."^=".s:path
