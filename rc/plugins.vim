@@ -47,7 +47,6 @@ Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'posva/vim-vue'
 
 " integrations
-Plugin 'joonty/vdebug'
 Plugin 'mileszs/ack.vim'
 Plugin 'tpope/vim-commentary'
 Plugin 'tpope/vim-dispatch'
