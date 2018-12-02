@@ -2,6 +2,7 @@
 let g:ale_fixers = {
       \ 'python': ['autopep8'],
       \ 'javascript': ['eslint'],
+      \ 'vue': ['eslint'],
       \ 'typescript': ['tslint'],
       \ }
 
