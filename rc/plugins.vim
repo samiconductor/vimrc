@@ -50,7 +50,6 @@ Plugin 'w0rp/ale'
 
 " interface
 Plugin 'airblade/vim-gitgutter'
-Plugin 'bling/vim-airline'
 Plugin 'jeetsukumaran/vim-buffergator'
 Plugin 'jeffkreeftmeijer/vim-numbertoggle'
 Plugin 'sjl/gundo.vim'
