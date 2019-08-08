@@ -9,21 +9,8 @@ nnoremap <Leader>cc :cclose<CR>
 nnoremap <Leader>lo :lopen<CR>
 nnoremap <Leader>lc :lclose<CR>
 
-" remap home path expansion
-cnoremap <C-H> <C-R>=expand("%:p:h") . "/"<CR>
-
-" map cmdline history
-cnoremap <C-P> <Up>
-cnoremap <C-N> <Down>
-
-" insert date into command line
-cnoremap <C-T> <C-R>=strftime("%Y-%m-%d")<CR>
-
-" run current file with python
-nnoremap <Leader>pr :!python %<CR>
-
-" run python tests
-nnoremap <Leader>pt :!python -m unittest discover -s tests<CR>
+" reload buffer from file system
+nnoremap <Leader>ct :checktime<CR>
 
 " copy current file path or path with line number
 nnoremap <silent> <Leader>cp :let @+ = expand('%')<CR>:echo 'copied '.expand('%')<CR>
@@ -40,6 +27,16 @@ nnoremap <silent> <leader>cd :lcd %:h<CR>
 
 " set text wrapping toggles
 nnoremap <silent> <leader>tw :set invwrap<CR>:set wrap?<CR>
+
+" remap home path expansion
+cnoremap <C-H> <C-R>=expand("%:p:h") . "/"<CR>
+
+" map cmdline history
+cnoremap <C-P> <Up>
+cnoremap <C-N> <Down>
+
+" insert date into command line
+cnoremap <C-T> <C-R>=strftime("%Y-%m-%d")<CR>
 
 if has("mac")
   " open finder or terminal in current directory
