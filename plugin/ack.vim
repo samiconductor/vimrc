@@ -1,6 +1,5 @@
 " shortcuts
-nnoremap <Leader>a :Ack!<Space>
-nnoremap <Leader>la :LAck!<Space>
+nnoremap <Leader>f :LAck!<Space>
 
 " use the silver searcher
 if executable('ag')
