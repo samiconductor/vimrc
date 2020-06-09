@@ -19,8 +19,9 @@ nnoremap <silent> <Leader>cl :let @+ = expand('%').'#L'.line('.')<CR>:echo 'copi
 " toggle text wrap
 nnoremap <silent> <leader>tw :set invwrap<CR>:set wrap?<CR>
 
-" toggle hlsearch
-nnoremap <leader>hl :set hlsearch! hlsearch?<CR>
+" search
+nnoremap <Leader>cs :let @/ = ''<CR>
+nnoremap <Leader>hl :set hlsearch! hlsearch?<CR>
 
 " cd to the directory containing the file in the buffer
 nnoremap <silent> <leader>cd :lcd %:h<CR>
