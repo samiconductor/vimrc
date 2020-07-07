@@ -33,7 +33,7 @@ Plugin 'vim-ruby/vim-ruby'
 " completion
 Plugin 'ludovicchabant/vim-gutentags'
 Plugin 'mustache/vim-mustache-handlebars'
-Plugin 'Shougo/neocomplete.vim'
+Plugin 'Shougo/deoplete.nvim'
 Plugin 'tpope/vim-endwise'
 
 " code display
@@ -66,11 +66,13 @@ Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-unimpaired'
 Plugin 'whatyouhide/vim-textobj-xmlattr'
 
-" other
+" lib
 Plugin 'editorconfig/editorconfig-vim'
 Plugin 'embear/vim-localvimrc'
 Plugin 'xolox/vim-misc'
 Plugin 'xolox/vim-notes'
+Plugin 'roxma/nvim-yarp'
+Plugin 'roxma/vim-hug-neovim-rpc'
 
 " All of your Plugins must be added before the following line
 call vundle#end()
