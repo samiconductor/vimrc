@@ -56,11 +56,12 @@ Plugin 'sjl/gundo.vim'
 Plugin 'tpope/vim-fugitive'
 
 " commands
-Plugin 'matchit.zip'
+Plugin 'carpetsmoker/xdg_open.vim'
 Plugin 'godlygeek/tabular'
 Plugin 'junegunn/fzf'
 Plugin 'junegunn/fzf.vim'
 Plugin 'kana/vim-textobj-user'
+Plugin 'matchit.zip'
 Plugin 'tpope/vim-repeat'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-unimpaired'

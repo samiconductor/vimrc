@@ -12,3 +12,6 @@ let g:netrw_altv = 1
 
 " open previews vertically
 let g:netrw_preview = 1
+
+" disable gx
+let g:netrw_nogx = 1
