@@ -56,7 +56,6 @@ Plugin 'sjl/gundo.vim'
 Plugin 'tpope/vim-fugitive'
 
 " commands
-Plugin 'carpetsmoker/xdg_open.vim'
 Plugin 'godlygeek/tabular'
 Plugin 'junegunn/fzf'
 Plugin 'junegunn/fzf.vim'
@@ -65,6 +64,7 @@ Plugin 'matchit.zip'
 Plugin 'tpope/vim-repeat'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-unimpaired'
+Plugin 'tyru/open-browser.vim'
 Plugin 'whatyouhide/vim-textobj-xmlattr'
 
 " lib
