@@ -3,7 +3,7 @@ if !exists('g:notes_directories')
   let g:notes_directories = []
 endif
 
-let s:dropbox_notes = 'Dropbox/Sam/Notes'
+let s:dropbox_notes = 'Dropbox/Notes'
 
 if join(g:notes_directories) !~ s:dropbox_notes
   call add(g:notes_directories, expand('~/'.s:dropbox_notes))
