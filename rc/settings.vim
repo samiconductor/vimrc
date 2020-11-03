@@ -38,6 +38,9 @@ set incsearch   " incremental searching
 set ignorecase  " searches are case insensitive...
 set smartcase   " ... unless they contain at least one capital letter
 
+" completion
+set completeopt-=preview
+
 " cmd line completions
 "" list: view the list of completions
 "" longest: complete longest match
